@@ -1,0 +1,47 @@
+.header__navbar{
+    display: flex;
+    align-content: space-evenly;
+    
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.header__option:hover{
+    color: rgba(185, 170, 184, 0.808);
+    cursor: pointer;
+}
+
+.optionLineOneCart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.optionLineOneCartCount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header > .header__navbar >  .optionLineOneCart > .optionLineOneCartCount > .header__optionLineOne >.MuiSvgIcon-root{
+    margin-top:-7;
+}
+.header__optionLineOne{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top:-7;
+}
+.header__optionLineTwo{
+     font-size: 14px;
+     line-height: 15px;
+     font-weight: 700;
+}
+
+.header__productCount { 
+   
+    color: #fff;
+    margin-bottom: -7px;
+}

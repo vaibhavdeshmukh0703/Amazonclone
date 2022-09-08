@@ -1,0 +1,14 @@
+select{
+    width:auto;
+    height: 4rem;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-left: 5px;
+    background-color:rgba(245, 181, 6, 0.856);;
+    border-top-left-radius: 6px;
+    border: none;
+    border-bottom-left-radius: 6px;
+    color:#46063b;
+    font-family: 'marathi';
+  
+}

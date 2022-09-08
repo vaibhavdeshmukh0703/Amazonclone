@@ -1,0 +1,117 @@
+.sellerDashboard{
+    font-family: 'marathi';
+}
+
+.sellerDashboard__header {
+    background-color:  #46063b ;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom : 0.2vh solid #fff;
+}
+
+.sellerDashboard__headerLeft {
+    color : #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:  sans-serif;
+}
+
+.sellerDashboard__headerRightLogoutButton:hover {
+    border: 1px solid rgba(245, 181, 6, 0.856);
+    color: rgba(245, 181, 6, 0.856);
+}
+
+.sellerDashboard__headerRightLogoutButton {
+    color: #fff;
+    border: 1px solid #fff;
+    /* background: #fff ; */
+    padding: 3px 7px;
+    margin-right: 10px;
+    transition: 0.5s;
+    transition-property: all;
+    border-radius:3px;    
+}
+
+.sellerDashboard__main{
+    display: flex;
+    flex-direction: row;
+}
+
+.sellerDashBoard__sidebar {
+    background-color:  #46063b ;
+    color : #fff;
+    min-width: 16vw;
+    height:92vh;
+    display: flex;
+    flex-direction: column;
+    overflow : hidden;
+    
+}
+
+.seller-logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+center > h3 {
+    margin-top:0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.sellerDashBoard__option {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-content: center;
+    margin-top:10px;
+     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sellerDashboard__link {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    line-height: 40px;
+    padding-left: 1.5rem;
+    transition: 0.5s;
+    transition-property: all;
+    
+}
+
+.sellerDashboard__linkName{
+ margin-left: 1rem;
+ font-size: 1.6rem;
+}
+
+.sellerDashboard__link:hover {
+    /* background-color: #08a59d ; */
+    box-sizing: border-box;
+    border-left:10px solid #900C3F;
+    background-color: rgba(245, 181, 6, 0.856);
+
+}
+
+.sellerDashboard__link:focus{
+    background-color: #ffc400cb ;
+}
+
+.sellerDashboard__maincontent{
+    display:inline;
+    width:84vw;
+}

@@ -1,0 +1,13 @@
+.footer {
+    /* background-color: #46063b; */
+    background-color: #e7e9ea;
+    color: #2e3d49;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+}

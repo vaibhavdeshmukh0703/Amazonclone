@@ -1,0 +1,13 @@
+.SecondSubHeader{
+    height: 30px;
+    background: #eae5e5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+
+

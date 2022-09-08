@@ -1,0 +1,32 @@
+.header__address{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color : white;
+    margin-left:-1vw;
+    margin-right: 1vw;
+    transition: 0.4s ease;
+    
+}
+.header__address:hover{
+    color: rgba(185, 170, 184, 0.808);
+    transition: all;
+    cursor: pointer;
+}
+.header__deliveryAddress{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: -10px;
+}
+.header__deliveryAddressLineOne{
+    font-weight: 400;
+    font-size: 12px;
+}
+.header__deliveryAddressLineTwo{   
+    font-weight: 700;
+    font-size: 14px;
+}
+.header >.header__address > .MuiIconButton-root{
+    color: white;  
+}
